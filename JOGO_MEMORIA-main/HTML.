@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo da Memória</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="memory-game">
+    <div class="memory-card" data-framework="dog">
+      <div class="front">🐶</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="dog">
+      <div class="front">🐶</div>
+      <div class="back">❓</div>
+    </div>
+
+    <div class="memory-card" data-framework="cat">
+      <div class="front">🐱</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="cat">
+      <div class="front">🐱</div>
+      <div class="back">❓</div>
+    </div>
+
+    <div class="memory-card" data-framework="fox">
+      <div class="front">🦊</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="fox">
+      <div class="front">🦊</div>
+      <div class="back">❓</div>
+    </div>
+
+    <div class="memory-card" data-framework="lion">
+      <div class="front">🦁</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="lion">
+      <div class="front">🦁</div>
+      <div class="back">❓</div>
+    </div>
+
+    <div class="memory-card" data-framework="frog">
+      <div class="front">🐸</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="frog">
+      <div class="front">🐸</div>
+      <div class="back">❓</div>
+    </div>
+
+    <div class="memory-card" data-framework="cow">
+      <div class="front">🐮</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="cow">
+      <div class="front">🐮</div>
+      <div class="back">❓</div>
+    </div>
+
+    <div class="memory-card" data-framework="panda">
+      <div class="front">🐼</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="panda">
+      <div class="front">🐼</div>
+      <div class="back">❓</div>
+    </div>
+
+    <div class="memory-card" data-framework="monkey">
+      <div class="front">🐵</div>
+      <div class="back">❓</div>
+    </div>
+    <div class="memory-card" data-framework="monkey">
+      <div class="front">🐵</div>
+      <div class="back">❓</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
